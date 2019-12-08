@@ -4,6 +4,6 @@ repos:
     hooks:
       - id: flake8
         additional_dependencies: [
-          "git+https://github.com/PyCQA/pyflakes",
-          "git+https://gitlab.com/PyCQA/pycodestyle",
+          "git+https://github.com/PyCQA/pyflakes#egg=pyflakes",
+          "git+https://gitlab.com/PyCQA/pycodestyle#egg=pycodestyle",
         ]
