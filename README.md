@@ -9,7 +9,7 @@ pip install flake8 git+https://github.com/PyCQA/pyflakes git+https://gitlab.com/
 flake8 test_walrus.py
 ```
 
-In tox, this is possible by specifying `deps` for a `testenv`. However, the same approach doesn't seem to be working with pre-commit's `additional_dependencies`. I reported this as a [pre-commit issue](https://github.com/pre-commit/pre-commit/issues/1238), then discovered a workaround, which I've implemented in a [pull request](https://github.com/bhrutledge/pre-commit-git-deps/pull/1).
+In tox, this is possible by specifying `deps` for a `testenv`. However, the same approach wasn't working with pre-commit's `additional_dependencies`. I reported this as a [pre-commit issue](https://github.com/pre-commit/pre-commit/issues/1238), then discovered a workaround, which I've implemented in a [pull request](https://github.com/bhrutledge/pre-commit-git-deps/pull/1).
 
 Output from initial commit:
 
